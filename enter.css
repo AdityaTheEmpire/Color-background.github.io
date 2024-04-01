@@ -1,0 +1,52 @@
+.body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cor);
+}
+
+form{
+    /* font-family: cursive; this is not working because it has sbu classes of input and submit */
+    border: 2px solid rgb(255, 255, 0);
+    height: 40%;
+    width: 50%;
+    padding: 3%;
+    box-shadow: 0px 3px 9px rgba(255, 242, 1, 0.448);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;/* this is going to adjust the items to the center as to apply padding properly */
+}
+
+form .ip{
+    margin: 4px;
+    font-family: cursive;
+    display: block;
+    height: 40px;
+    width: 100%;
+box-sizing: border-box;/* this is used to adjust the box according to the boder so that */
+text-align: center;
+
+}
+ form .btn{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 14px;
+    font-family: cursive;
+    box-sizing: border-box;
+ }
+
+.enter{
+    display: none;
+}
+
+label{
+text-align: justify;
+font-size: 18px;
+}
